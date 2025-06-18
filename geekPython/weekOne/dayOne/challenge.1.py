@@ -21,8 +21,12 @@ def get_inputs():
     while True:
         number_input = input("Enter a number: ")
         length_input = input("Enter the length: ")
-        
-        if  length_input.isdigit():
+         
+
+        if number_input.isalpha():
+            print("give me a number")
+            continue
+        if   length_input.isalpha():
             number = int(number_input)
             length = int(length_input)
 
