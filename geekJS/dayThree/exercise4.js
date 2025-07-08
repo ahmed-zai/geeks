@@ -35,6 +35,7 @@ Let’s create functions that calculate your vacation’s costs:
     Bonus: Instead of using a prompt inside the 3 first functions, only use a prompt inside the totalVacationCost() function. You need to change the 3 first functions, accordingly.
 
 */
+//  before use that code don't forget to install prompt-sync package 
 const prompt = require("prompt-sync")({sigint: true});
 
 
